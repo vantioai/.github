@@ -17,8 +17,8 @@ Blind by design. Not a proxy. We run the same platform on our own infrastructure
 Absolute Control covers the egress path so your team can focus on what it does best — building, deploying, and maintaining. Observe honestly with Optics. Enforce with Gate. Close residual bypass with Phantom Engine.
 
 - Website: [vantio.ai](https://vantio.ai)
-- Platform (Optics): [vantio.ai/platform](https://vantio.ai/platform)
-- Pro (Gate): [vantio.ai/pro](https://vantio.ai/pro)
+- Optics: [vantio.ai/optics](https://vantio.ai/optics)
+- Gate: [vantio.ai/gate](https://vantio.ai/gate)
 - Enterprise: [vantio.ai/enterprise](https://vantio.ai/enterprise)
 - Pricing: [vantio.ai/pricing](https://vantio.ai/pricing)
 
