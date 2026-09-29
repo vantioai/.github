@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest an improvement to public Optics surfaces
+title: "[feat] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Feature ideas for **public Optics** only. Phantom Engine private source is out of scope.
+        There is no response-time promise. Large requests may be declined or deferred without discussion.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem are you trying to solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This is about Optics observe / public packages (not private Phantom Engine source)
+          required: true
