@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Optics product docs
+    url: https://vantio.ai/optics
+    about: Product documentation for Vantio Optics (Sight Loop observe).
+  - name: Security report
+    url: https://github.com/vantioai/vantio-open-core/security/advisories/new
+    about: Report a vulnerability privately (or email security@vantio.ai). Do not file public issues for unfixed vulns.
+  - name: General contact
+    url: https://vantio.ai
+    about: Sales, enterprise, or non-bug questions — not tracked as GitHub issues.

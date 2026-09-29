@@ -1,0 +1,49 @@
+name: Bug report
+description: Report a defect in a public Optics surface
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for a clear bug report. Maintainers respond best-effort — **no support promise**.
+        Security issues → SECURITY.md / security@vantio.ai (not this form).
+  - type: dropdown
+    id: repo
+    attributes:
+      label: Repository / surface
+      options:
+        - vantio-open-core (CLI / SDKs / Optics MCP)
+        - vantio-optics-cursor-plugin
+        - Unsure
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Package or plugin version
+      placeholder: e.g. @vantio/cli 0.3.x / vantio-agent-sdk 3.x / plugin commit
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+      description: Do not paste secrets, API keys, prompts, or completions.
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      placeholder: OS, Node/Python version, Cursor version if relevant
