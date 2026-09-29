@@ -7,7 +7,7 @@ Blind by design. Not a proxy. We do not read private conversations.
 | Product | Job | List |
 |---------|-----|------|
 | [**Vantio Optics**](https://github.com/vantioai/vantio-open-core) | Observe | Free |
-| [**Vantio Phantom Engine**](https://github.com/vantioai/vantio-phantom-engine) | Observe + Enforce + Control on enrolled Linux | $799/node/mo |
+| [**Vantio Phantom Engine**](https://vantio.ai/phantom) | Observe + Enforce + Control on enrolled Linux | $799/node/mo |
 | **Vantio Enterprise** | Governance on that protection | Talk to sales |
 
 Start with Optics:
