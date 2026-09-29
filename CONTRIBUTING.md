@@ -9,7 +9,7 @@ Thank you for your interest. Vantio is machine authority infrastructure for arti
 | `vantio-open-core` | Limited external contributions welcome for Optics CLI/SDKs/observe MCP (Ring-3 user-space) |
 | `vantio-optics-cursor-plugin` | Limited — small observe-only Cursor/MCP plugin |
 | `vantio-phantom-engine` | **Private** — not an open contribution surface |
-| `autonomous-ops-framework` | Experimental / not a customer product — do not treat as active contribution target |
+| `autonomous-ops-framework` | **Archived legacy** (archived 2026-09-29, read-only) — not a current product; do not treat as an active contribution target |
 
 ## How we review
 
