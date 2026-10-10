@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  org-profile:
+    name: Org profile CI
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+
+      - name: Required organization files are present
+        run: |
+          test -s README.md
+          test -s profile/README.md
+          test -s SECURITY.md
+          test -s SUPPORT.md
+          test -s CODE_OF_CONDUCT.md
+          test -s .github/PULL_REQUEST_TEMPLATE.md
+          test -s .github/ISSUE_TEMPLATE/bug_report.yml
+          test -s .github/ISSUE_TEMPLATE/feature_request.yml
+          test -s .github/ISSUE_TEMPLATE/config.yml
