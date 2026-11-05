@@ -33,7 +33,7 @@ org-agent-docs-ok
 
 ## Git SHA
 
-Commands above were run against: _(updated after commit — see PR head SHA)_.
+Commands above were run against: `aebbd102920ef2a6e1894cc46e34339605a0ac05` (branch `cursor/cursor-cloud-agent-setup-5957`).
 
 ## Gap list
 
