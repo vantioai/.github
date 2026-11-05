@@ -1,0 +1,13 @@
+---
+description: State only what a test or log from this run proves; org profile is suggestion-only
+alwaysApply: true
+---
+
+# Claims
+
+- State only what a test or log from this run proves.
+- Name the command, the exit code, and the SHA.
+- Record skipped or optional checks. Exit code `0` does not prove a check you did not run.
+- A green local validation run does not prove GitHub UI behavior, council sign-off, or production impact.
+
+**Org profile and policy text:** Changes to `profile/README.md` or the meaning of community health files (`CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, `SUPPORT.md`) need Zach's go and council review. Agents **never** edit that public profile or policy text. List suggestions in the PR or evidence note instead.

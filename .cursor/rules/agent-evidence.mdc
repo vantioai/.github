@@ -1,0 +1,17 @@
+---
+description: Evidence files list commands, exit codes, SHAs, and gap lists
+alwaysApply: true
+---
+
+# Evidence
+
+For each agent task, add or update `evidence/<name>.md` (for example `evidence/cursor-setup.md`). Include:
+
+- Each command run
+- Its exit code (return code)
+- The git SHA those commands ran against
+- A gap list of what this checkout cannot prove (GitHub UI rendering, council approval, maintainer merge, and similar)
+
+Mirror the same command list, exit codes, SHA, and gaps in the draft pull request body.
+
+A passing local check proves the files and YAML on that SHA. It does not prove the org profile renders as intended on GitHub or that issue forms look correct in the web UI.

@@ -1,0 +1,14 @@
+---
+description: No secrets or customer data; no dispatch, tags, publish, deploy, or cloud runs
+alwaysApply: true
+---
+
+# Safety
+
+This repository is public. Do not put internal business details, customer or vendor names, prices, or account identifiers in commits, evidence, or pull requests.
+
+- Never print or store secret values. Keep tokens, keys, passwords, and credential-file bodies out of logs, commits, and pull requests.
+- Do not commit customer data, prompts, completions, or private lab captures.
+- Never run or dispatch GitHub Actions workflows from an agent task (including `workflow_dispatch`).
+- Do not create tags, publish packages, deploy, or trigger Cursor cloud runs as part of this repo's agent work.
+- Do not commit credential files or captured sensitive output.
