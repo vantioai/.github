@@ -1,26 +1,31 @@
 # Vantio
 
-**Vantio** is the infrastructure control layer for autonomous AI. Optics observes. Phantom Engine delivers runtime protection on enrolled Linux — Observe, Enforce, and Control together, one purchase. Vantio Enterprise adds governance when you need proof and process on top.
+**Linux security for AI.**
 
-Blind by design. Not a proxy. We do not read private conversations.
+AI now runs on Linux servers, both AI you deployed and AI that arrives uninvited. Vantio keeps that activity in line: we show what AI is doing on your Linux systems, stop what it isn't allowed to do, and keep the rules in the hands of named people.
 
-| Product | Job | List |
-|---------|-----|------|
-| [**Vantio Optics**](https://github.com/vantioai/vantio-open-core) | Observe | Free |
-| [**Vantio Phantom Engine**](https://vantio.ai/phantom) | Observe + Enforce + Control on enrolled Linux | Contact Vantio |
-| **Vantio Enterprise** | Governance on that protection | Contact Vantio |
+| Product | What it does | Availability |
+| --- | --- | --- |
+| [**Optics**](https://github.com/vantioai/vantio-optics) | Visibility. See every AI process on a Linux host, its outbound calls, and its MCP tool use. Observe only. | Free and open source (MIT) |
+| [**Phantom Engine**](https://vantio.ai/phantom-engine) | Protection. Kernel-level rules on Linux hosts you enroll: approved destinations pass and everything else is stopped, including processes the AI starts. | Early access. [Contact us](https://vantio.ai) |
+| **Enterprise** | Governance. A control plane over Phantom Engine where every rule change belongs to a named person who signs it. AI cannot grant itself or another AI permission. | Early access. [Contact us](https://vantio.ai) |
 
-Start with Optics:
+## Start with Optics
 
 ```bash
 npm install -g @vantio/cli
 vantio run node agent.js
 ```
 
-Python: `pip install vantio-agent-sdk`, then `vantio run python agent.py` or wrap with `shield()`. Prefixing `vantio run python` does not intercept by itself.
+Python: `pip install vantio-agent-sdk`. See the [Optics README](https://github.com/vantioai/vantio-optics#readme) for pinned versions, Python usage, and the MCP server.
+
+## Why below the AI
+
+A prompt is a request. A kernel rule is not. Vantio enforces where the AI can't negotiate with it: in the Linux kernel on the machines you own.
+
+## Links
 
 - Website: [vantio.ai](https://vantio.ai)
-- Optics: [vantio.ai/optics](https://vantio.ai/optics)
-- Docs: [vantio.ai/docs](https://vantio.ai/docs)
-- Phantom Engine: [vantio.ai/phantom](https://vantio.ai/phantom)
-- Pricing: [vantio.ai/pricing](https://vantio.ai/pricing)
+- Security reports: see [SECURITY.md](https://github.com/vantioai/.github/blob/main/SECURITY.md)
+
+Vantio AI, Inc. · Pittsburgh, PA
